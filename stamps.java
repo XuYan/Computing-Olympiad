@@ -52,6 +52,7 @@ public class stamps {
 				max_stamp_value = stamps[i];
 			}
 		}
+		f.close();
 		
 		boolean[] canForm = new boolean[1 + K * max_stamp_value]; // The max value when can form with K stamps is K * max_stamp_value
 		canForm[0] = true;
